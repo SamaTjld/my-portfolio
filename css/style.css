@@ -1,10 +1,14 @@
-.navbar {
+.container {
   max-width: 870px;
   width: 100%;
   margin: auto;
+}
+
+.navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 75px;
 }
 
 .nav-list {
@@ -24,4 +28,123 @@
 
 .nav-link.active {
   font-weight: 700;
+}
+
+.header {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 72px;
+}
+.header-photo {
+  width: 212px;
+  height: 240px;
+}
+.header-text {
+  max-width: 510px;
+}
+.header-span {
+  color: #bf7506;
+}
+.header-text-h1 {
+  margin: 0;
+  margin-bottom: 8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+}
+
+.header-text-sub {
+  margin: 0;
+  margin-bottom: 23px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+}
+
+.header-text-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-text-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+
+.header-text-dowload {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #bf7506;
+}
+.header-text-dowload-main {
+  margin-right: 44px;
+}
+.header-text-dowload img {
+  width: 24px;
+  height: 24px;
+  padding-right: 4px;
+  padding-bottom: 7px;
+}
+.header-text-dowload p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 7px;
+}
+.header-text-border {
+  border: 1.5px solid #bf7506;
+}
+
+.content-h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  color: #bf7506;
+  margin: 0;
+  margin-bottom: 32px;
+}
+.main-content {
+  display: flex;
+  align-items: center;
+  gap: 72px;
+}
+.card {
+  max-width: 400px;
+}
+.card-container {
+  margin-left: 16px;
+}
+.card-h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  color: #bf7506;
+
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.card-list {
+  display: flex;
+  list-style: none;
+  gap: 4px;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+.card-item {
+  border: 1px solid #bf7506;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+.card-p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+.card-icon {
+  display: flex;
 }
