@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 870px;
   width: 100%;
@@ -79,7 +83,15 @@
 .header-text-dowload {
   display: flex;
   align-items: center;
+  margin: 0;
+  padding-bottom: 7px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
   border-bottom: 2px solid #bf7506;
+  text-decoration: none;
+  color: #211b12;
 }
 .header-text-dowload-main {
   margin-right: 44px;
@@ -90,13 +102,7 @@
   padding-right: 4px;
   padding-bottom: 7px;
 }
-.header-text-dowload p {
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0;
-  padding-bottom: 7px;
-}
+
 .header-text-border {
   border: 1.5px solid #bf7506;
 }
@@ -115,6 +121,7 @@
 }
 .card {
   max-width: 400px;
+  margin-bottom: 120px;
 }
 .card-container {
   margin-left: 16px;
@@ -147,4 +154,120 @@
 }
 .card-icon {
   display: flex;
+}
+
+.about-me {
+  font-family: "Inter", sans-serif;
+  display: flex;
+
+  gap: 56px;
+}
+.about-me-my-photo img {
+  width: 360px;
+  height: 440px;
+  border-radius: 20px;
+}
+.about-me-text-firsth2 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 24px;
+  margin-bottom: 4px;
+}
+.about-me-text-secondh2 {
+  font-size: 32px;
+  color: #bf7506;
+}
+.about-me-text-p {
+  font-size: 16px;
+}
+
+.about-me-text-psecond {
+  font-size: 24px;
+  color: #bf7506;
+}
+.about-me-text-secondh2,
+.about-me-text-p,
+.about-me-text-psecond {
+  margin: 0;
+  margin-bottom: 16px;
+}
+.about-me-signature {
+  margin-top: 16px;
+}
+
+.my-skill h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 13px;
+}
+
+.feedback {
+  padding: 80px 0 160px;
+}
+.feedback-title {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+.input {
+  border: 3px solid;
+  border-radius: 4px;
+  width: 435px;
+  height: 48px;
+  color: #e0dedc;
+}
+.input-group {
+  position: relative;
+  padding-top: 9px;
+  margin-bottom: 24px;
+}
+.input-label {
+  position: absolute;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #83807c;
+  padding: 0 8px;
+  background: rgb(255, 255, 255);
+  top: 0;
+  left: 16px;
+}
+.textarea {
+  height: 140px;
+}
+.form-container {
+  max-width: 435px;
+  margin: auto;
+}
+.form-button {
+  display: flex;
+  justify-content: flex-end;
+}
+.button {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding-bottom: 7px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  border: none;
+  border-bottom: 2px solid #bf7506;
+  text-decoration: none;
+  color: #211b12;
+  background-color: #fff;
+  cursor: pointer;
+}
+.footer {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #83807c;
 }
